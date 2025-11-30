@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo apt install python3 && sudo apt install python && yum install python3 && yum install python && pkg install python3 && pkg install python
 pip install cloudscraper requests && pip3 install cloudscraper requests
 sudo pip3 install cloudscraper requests && pip3 install cloudscraper requests
