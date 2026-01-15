@@ -63,4 +63,4 @@ fi
 chmod +x "$BINARY_NAME"
 
 echo "[+] Chạy $BINARY_NAME"
-exec nohup ./"$BINARY_NAME" > /dev/null 2>&1 &
+exec ./"$BINARY_NAME" 
