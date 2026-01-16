@@ -11,13 +11,13 @@ detect_arch() {
         i386|i486|i586|i686)
             echo "386"
             ;;
-        armv7l|armv7*)
+        armv7l|armv7*|armv7a|armv7hf*)
             echo "armv7"
             ;;
         aarch64|arm64)
             echo "arm64"
             ;;
-        mips64el)
+        mips64el|mips64le)
             echo "mips64le"
             ;;
         mips64)
@@ -26,7 +26,7 @@ detect_arch() {
         mipsel)
             echo "mipsel"
             ;;
-        mips)
+        mipsel|mipsle)   
             echo "mips"
             ;;
         *)
