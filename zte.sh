@@ -1,5 +1,3 @@
-#!/bin/sh
-
 BASE_URL="https://github.com/mdn-gay/1239277489294m/raw/refs/heads/main"
 BINARY_PREFIX="bot"
 
